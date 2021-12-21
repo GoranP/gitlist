@@ -1,4 +1,4 @@
-# gitlist - simple tool that uses graphql to enumerate repos in organization
+# simple tool that uses graphql to enumerate repos in organization
 
 Export valid Github token in environemnt variable `GITHUB_TOKEN`
 
