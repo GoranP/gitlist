@@ -2,6 +2,8 @@
 
 Export valid Github token in environemnt variable `GITHUB_TOKEN`
 
+Clone the code https://github.com/GoranP/gitlist.git
+
 Compile code:
 ```
 go get
