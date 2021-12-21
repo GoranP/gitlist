@@ -29,5 +29,5 @@ iscanonline
 nable-backup
 ```
 
-For convenience it is possible to get raw unprocessed json in console output that is result of GraphQL query with `--rawjson flag.
+For convenience it is possible to get raw unprocessed json in console output that is result of GraphQL query with `--rawjson` flag.
 
