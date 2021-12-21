@@ -1,4 +1,4 @@
-# simple tool that uses graphql to enumerate repos in organization
+# Simple tool that uses graphql to enumerate repos in organization
 
 Export valid Github token in environemnt variable `GITHUB_TOKEN`
 
