@@ -93,7 +93,7 @@ func writeCSV(repos []repository) {
 		row = append(row, string(repo.PrimaryLanguage.Name))
 		var allLangs string
 		for _, lang := range repo.Languages.Nodes {
-			allLangs = allLangs + string(lang.Name) + "\r"
+			allLangs = allLangs + string(lang.Name) + "\n"
 		}
 		row = append(row, allLangs)
 
