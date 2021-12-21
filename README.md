@@ -1,6 +1,8 @@
-# gitlist - simple tool that uses graphql to enumerate repos in organization
+# Simple tool that uses graphql to enumerate repos in organization
 
 Export valid Github token in environemnt variable `GITHUB_TOKEN`
+
+Clone the code https://github.com/GoranP/gitlist.git
 
 Compile code:
 ```
@@ -17,9 +19,9 @@ Usage:
   gitlist -h | --help
 ```
 
-Processed results will be stored in CSV file (--outputcsv) for Excel import. 
+Processed results will be stored in CSV file (`--outputcsv`) for Excel import. 
 
-List of organizations are in separate text file (--orgs).
+List of organizations are in separate text file (`--orgs`).
 
 Eg of file:
 ```
@@ -27,5 +29,5 @@ iscanonline
 nable-backup
 ```
 
-For convenience it is possible to get raw unprocessed json in console output that is result of GraphQL query with --rawjson flag.
+For convenience it is possible to get raw unprocessed json in console output that is result of GraphQL query with `--rawjson` flag.
 
