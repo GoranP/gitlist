@@ -25,8 +25,8 @@ List of organizations are in separate text file (`--orgs`).
 
 Eg of file:
 ```
-iscanonline
-nable-backup
+org 1
+org 2
 ```
 
 For convenience it is possible to get raw unprocessed json in console output that is result of GraphQL query with `--rawjson` flag.
